@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ol,
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+a,h1,h2,h3,h4,h5,h6,li,ol,ul {
+    /* margin: 0 !important;
+    padding: 0 !important; */
+    font-family: 'Poppins', sans-serif;
+}
+.Header-Manu{
+    background-color: #FAE3B6; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.manu-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.manu-text .manu ul{
+    display: flex;
+    column-gap: 30px;
+}
+.manu-text .manu ul li a{ 
+    color: #000;
+}
+.manu-text .from {
+    display: flex;
+    gap: 20px;
+}
+.manu-text .from .Login {
+    margin-right: 20px;
+    border-radius: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #FAE3B7;
+}
+.manu-text .from .Sign-up {
+    border-radius: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #FAE3B7;
+}
+
+.banner{
+    padding: 10% 0 10% 0;
+    background: #FAE3B6;
+}
+.banner .text-area h1{
+    font-weight: 900px;
+    font-style: 60px; 
+
+}
+.banner .text-area p{
+    padding: 20px 80px 20px 0;
+    font-style: 20px;
+    color: black;
+    opacity: 70%;
+}
+.banner .text-area .btn{
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.banner .img-area .images{ 
+    position: relative;
+    border-radius: 0% 0% 0% 35%;
+}
+
+.banner .img-area .icon{
+    position: absolute;
+    margin: 31% 0% 0% -5%;
+}
+
+.New-Coll{
+    margin: 40px 0 10px 0;
+    text-align: center;
+}
+.section .coll-part img{
+    width: 360px;
+    height: 500px;
+    position: absolute;
+}
+.section .coll-part .Img-button{
+    position: relative;
+    text-align: center;
+    background: #fff;
+    padding: 2% 38% 2% 38% ;
+    margin: 100% 0 10% 5% ;
+    border-radius: 10%;
+}
+.Best-Fashion{
+    padding: 7% 0 5% 0;
+
+}
+.Best-Fashion .fashion-area{}
+.Best-Fashion .fashion-area .fashion-img img{
+    margin: 15% 0 0 0;
+}
+.Best-Fashion .fashion-area .fashion-text{
+    text-align: center;
+    padding: 20% 0 0 5%;
+}
+.Best-Fashion .fashion-area .fashion-text h1{
+    font-weight: bold;
+    font-size: 41px;
+ 
+}
+.Best-Fashion .fashion-area .fashion-text p{
+    font-weight: bold; 
+    text-align: start;
+    padding: 3% 0 0 0;
+ 
+}
+.Best-Fashion .fashion-area .fashion-text .counter{ 
+    background: #FEECC8;
+    border-radius: 20%;
+}
+.Best-Fashion .fashion-area .fashion-text .counter .counter-text{ 
+    display: flex;
+    column-gap: 30px;  
+    padding: 8%;
+ }
+.Best-Fashion .fashion-area .fashion-text .counter .counter-text .counter-1{
+    border-right: 4px solid black;
+    padding: 0 0 0 3%;
+    text-align: center;
+ }
+
+.Best-Seller{
+    background: #CFA485;
+    padding: 10% 0 7% 0 ;
+}
+.Best-Seller .contant-area{
+    padding: 2%; 
+    color: #fff;
+}
+.Best-Seller .contant-area h1{
+    font-size: 60px;
+    text-align: start;
+}
+.Best-Seller .contant-area p{
+    font-size: 23px;
+    text-align: justify;
+}
+.Best-Seller .contant-area button{
+    margin: 0 0 0 25%;
+    padding: 20px 30px;
+    font-size: 30px;
+    border-radius: 10%;
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
